@@ -1,0 +1,14 @@
+# Terraform 캐시 및 상태 파일 제외
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.auto.tfvars
+
+# Crash log
+crash.log
+crash.*.log
+
+# VS Code 및 OS 설정 파일
+.vscode/
+.DS_Store
