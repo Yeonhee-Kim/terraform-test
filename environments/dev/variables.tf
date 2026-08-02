@@ -1,3 +1,14 @@
-variable "env" { type = string }
-variable "vpc_cidr" { type = string }
-variable "instance_type" { type = string }
+variable "env" {
+  type    = string
+  default = "dev"
+}
+
+variable "vpc_cidr" {
+  type    = string
+  default = "10.10.0.0/16"
+}
+
+variable "instance_type" {
+  type    = string
+  default = "t3.micro"
+}
